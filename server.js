@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware to parse JSON data
 app.use(bodyParser.json());
 
+
 // Root endpoint to confirm API is running
 app.get('/', (req, res) => {
     res.send('Kenya Red Cross Disaster Management API');
